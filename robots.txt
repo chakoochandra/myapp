@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /application/
+Disallow: /system/
+Disallow: /vendor/
+Disallow: /tests/
+Disallow: /logs/
+Disallow: /cache/
+Disallow: /backups/
+Disallow: /cli/
+Disallow: /.env
+Disallow: /composer.json
+Disallow: /composer.lock
+Disallow: /.git/
+Disallow: /.env
+Disallow: /storage/
+
+
+# Allow essential assets
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Optional: disallow URL parameters if you're using query strings for routing
+Disallow: /*?*

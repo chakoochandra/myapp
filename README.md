@@ -13,8 +13,14 @@
 2. Duplikasi file config.example.php dan rename file duplikat menjadi config.php
 3. Duplikasi file database.example.php dan rename file duplikat menjadi database.php
 4. Buka file database.php yang baru dibuat dan sesuaikan konfigurasi database (baris 4-12)
-5. Tes jalankan aplikasi.
-6. Setelah aplikasi jalan dengan baik, Anda bisa menghapus/comment baris 17-147 pada file application\config\database.php
+5. Pada terminal jalankan command berikut (SESUAIKAN PATH DAN NAMA FOLDER APLIKASI)
+```
+chmod 755 -R /var/www/html/myapp
+chown apache:apache -R /var/www/html/myapp
+```
+
+6. Tes jalankan aplikasi.
+7. Setelah aplikasi jalan dengan baik, Anda bisa menghapus/comment baris 17-147 pada file application\config\database.php
 
 
 ##  MODIFIKASI KONFIGURASI DATABASE

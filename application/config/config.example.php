@@ -329,7 +329,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'm4hk4m4h4gung';
+$config['encryption_key'] = 'my4pp';
 /*
 |--------------------------------------------------------------------------
 | Session Variables
@@ -388,7 +388,7 @@ $config['sess_driver'] = 'database';
 $config['sess_table_name'] = 'ci_sessions';
 $config['sess_save_path'] = 'ci_sessions';
 
-$config['sess_cookie_name'] = 'ci_session_update_';
+$config['sess_cookie_name'] = 'myapp_session_';
 $config['sess_expiration'] = (2 * 3600);
 $config['sess_regenerate_destroy'] = TRUE;
 

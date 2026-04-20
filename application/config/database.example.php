@@ -4,7 +4,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $db_host = 'localhost';
 $db_user = 'root';
 $db_pass = '';
-$db_name = 'myapp';
+$db_name = 'myapp'; // database akan otomatis dibuat
 
 $db_host_sipp = 'localhost';
 $db_user_sipp = 'root';

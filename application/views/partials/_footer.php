@@ -310,6 +310,7 @@ $useNprogress  = ($hasAssets && !empty($assets['nprogress']))  || $legacyFallbac
 					const result = JSON.parse(data.response);
 					if (result.name) {
 						if (!result.is_expired && !result.is_out_of_limit && result.status) {
+							localStorage.setItem('btn-notification', result.status);
 							$('.btn-notification').removeClass('disabled');
 						}
 						$('#summary-info').html(`<div class="alert alert-primary py-4" role="alert">
